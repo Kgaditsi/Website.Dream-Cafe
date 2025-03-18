@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>PRODUCT</title>
+
+    <style>
+        ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navigation bar */
+header {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    color: #333;
+    padding: 10px 0;
+    z-index: 2;}
+
+nav ul {
+    text-align: center;
+    padding: 180px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #ff9900;
+}
+
+/* Style the main content container */
+.main-content {
+    position: relative;
+}
+
+/* Style the background image */
+.background-image {
+    position: relative;
+}
+
+.background-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Style the additional picture */
+.additional-picture {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.additional-picture img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style the italic text */
+.italic-text {
+            position: absolute;
+            bottom: 0;
+            top: 50;
+            left: 65%;
+            transform: translateX(-50%);
+            font-style: italic; /* Add italic style */
+            font-weight: bold;
+            color: #333;
+            z-index: 2;}
+
+/* Style the contact icons and names */
+.contacts {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+}
+
+.contact img {
+    width: 2px;
+    height: 2px;
+    margin-right: 10px;
+}
+
+.contact p {
+    margin: 0;
+}
+
+.contact2 {
+    position: absolute;
+    top: 0;
+    left: 200%; 
+
+}
+
+.contact3 {
+    position: absolute;
+    top: 0;
+    left: 390%; 
+}
+
+.footer {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    right: 0;
+    padding: 10px;
+    z-index: 2;
+}
+.footer a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;}
+.footer a:hover {
+    text-decoration: underline;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href="#">Home   </a>
+                <a href="Product.html">  Product  </a>
+                <a href="Order.html">  Order  </a>
+                <a href="TERMS&CONDITIONS.html">  Contact  </a>
+                <a href="Account.html">  About Us  </a>
+            </ul>
+        </nav>
+    </header>
+    <section class="main-content">
+        <div class="background-image">
+            <img src="image/dream.jpg" alt="Background Image">
+            <div class="additional-picture">
+                <img src="image/menu.png" alt="Additional Picture">
+            </div>
+            <div class="italic-text">DREAM CAFE PROVIDES BEST QUALITY,HYGIRNIC FOOD AND BEST SERVICES WITH REASONAVLE PRICE!!</div>
+        </div>
+        <div class="contacts">
+            <div class="contact1">
+                <img src="image/CALL.jpg" alt="Contact Icon">
+                <p>+27 116579807</p>
+                <p>dreamcafe@vut.ac.za</p>
+            </div>
+            <div class="contact2">
+                <img src="image/name.jpeg" alt="Contact Icon">
+            </div>
+            <div class="contact3">
+                <img src="image/ICON.jpg" alt="Contact Icon">
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <a href="TERMS&CONDITIONS.html">Terms and Conditions</a>
+    </section>
+	
+	
+</body>
+</html>
